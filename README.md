@@ -287,9 +287,3 @@ This system is designed for:
 If you’re still writing raw forms manually… you’re wasting time.
 
 ---
-
-## 📜 License
-
-Use freely. Modify freely. Just don’t claim you built it from scratch.
-
----
