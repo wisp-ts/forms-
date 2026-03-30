@@ -1,4 +1,25 @@
-import { RawMessage } from "@minecraft/server";
+/*
+
+
+______  _____ ______ ___  ___ _____        
+|  ___||  _  || ___ \|  \/  |/  ___|   _   
+| |_   | | | || |_/ /| .  . |\ `--.  _| |_ 
+|  _|  | | | ||    / | |\/| | `--. \|_   _|
+| |    \ \_/ /| |\ \ | |  | |/\__/ /  |_|  
+\_|     \___/ \_| \_|\_|  |_/\____/        
+                                           
+presets, utilities, and builders for forms.
+presented by:
+ _    _  _____  _____ ______     _____  _____ 
+| |  | ||_   _|/  ___|| ___ \   |_   _|/  ___|
+| |  | |  | |  \ `--. | |_/ /     | |  \ `--. 
+| |/\| |  | |   `--. \|  __/      | |   `--. \
+\  /\  / _| |_ /\__/ /| |     _   | |  /\__/ /
+ \/  \/  \___/ \____/ \_|    (_)  \_/  \____/ 
+                                              
+ */
+
+ import { RawMessage } from "@minecraft/server";
 import { FormText } from "./formTypes";
 
 function isObject(value: unknown): value is Record<string, unknown> {

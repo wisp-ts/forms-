@@ -1,5 +1,25 @@
-// FULLY OPTIMIZED + BUG-FIXED VERSION
+/*
 
+
+______  _____ ______ ___  ___ _____        
+|  ___||  _  || ___ \|  \/  |/  ___|   _   
+| |_   | | | || |_/ /| .  . |\ `--.  _| |_ 
+|  _|  | | | ||    / | |\/| | `--. \|_   _|
+| |    \ \_/ /| |\ \ | |  | |/\__/ /  |_|  
+\_|     \___/ \_| \_|\_|  |_/\____/        
+                                           
+presets, utilities, and builders for forms.
+presented by:
+ _    _  _____  _____ ______     _____  _____ 
+| |  | ||_   _|/  ___|| ___ \   |_   _|/  ___|
+| |  | |  | |  \ `--. | |_/ /     | |  \ `--. 
+| |/\| |  | |   `--. \|  __/      | |   `--. \
+\  /\  / _| |_ /\__/ /| |     _   | |  /\__/ /
+ \/  \/  \___/ \____/ \_|    (_)  \_/  \____/ 
+                                              
+ */
+
+ 
 import { Player, system, world } from "@minecraft/server";
 import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/server-ui";
 
@@ -55,7 +75,7 @@ export class Forms {
     chatTag: "debug",
     prefix: "[Forms+]",
     busyHandling: "retry",
-    maxBusyRetries: 1,
+    maxBusyRetries: 500,
     validateOnShow: true,
   };
 
