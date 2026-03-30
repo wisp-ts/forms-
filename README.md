@@ -15,8 +15,6 @@ Forms+ replaces the fragile, repetitive Bedrock UI workflow with:
 * Builder APIs for cleaner code
 * Reusable presets system
 
-This is not just a helper — it’s a **form framework**.
-
 ---
 
 ## 📦 Installation
