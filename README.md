@@ -220,7 +220,7 @@ Forms+ automatically retries:
 
 ```ts
 busyHandling: "retry"
-maxBusyRetries: 2
+maxBusyRetries: 500
 ```
 
 ---
